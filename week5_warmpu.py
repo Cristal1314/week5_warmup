@@ -20,14 +20,15 @@ print(substring)
 # b. Extract every second letter starting from 'a' to 'm'.
 substring = text2.find("m")
 print(substring)
-substring = text2.find[0:12:1]
+substring = text2.find[0:14:1]
 # c. Reverse the entire string using slicing.
 
 # Problem Set 2: Extracting Information
 # From Descriptions:
 # Extract the name of the famous personality from the quote "Ask not what your country can do for you — ask what you can do for your country. - John F. Kennedy"
 text = "Ask not what your country can do for you - ask what can you do for your country. - John F. Kennedy"
-substring = text[0:-1:-15]
+print(text.find("John"))
+print(text[83:])
 # Manipulating Words:
 # Given the string info = "Python is fun. Fun is good. Good is subjective.",
 # a. Extract the word 'subjective' without knowing its exact position.
